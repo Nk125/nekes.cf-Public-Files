@@ -1,0 +1,60 @@
+body {
+    --wine: rgb(122, 13, 55);
+    text-align: center;
+    place-content: center;
+    place-items: center;
+    color: var(--wine);
+    background: dimgrey;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+}
+
+.navbar {
+    position: sticky;
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    position: sticky;
+}
+
+.navbar li a {
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    border: 0px;
+    margin: 0px;
+    background: var(--wine);
+    color: dimgrey;
+    
+}
+
+.navbar li a:hover {
+    background-color: crimson;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 631px) {
+    .navbar li {
+        display: block;
+    }
+}
+
+.void {
+    height: 20vh;
+}
+
+.advice {
+    color: whitesmoke;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.text h1,h2,h3 {
+    font-weight: bolder;
+}
